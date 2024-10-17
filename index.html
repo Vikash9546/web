@@ -4,45 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikash's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #f1f1f1;
+        }
+        h1 {
+            background-color: #cb5e3d;
+            border: 3px solid #333;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            width: 50%;
+            color: #fff;
+        }
+        .container {
+            background-color: #2a2a2a;
+            margin: 20px;
+            padding: 10px 50px;
+            border-radius: 20px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .education-section {
+            background: linear-gradient(90deg, #ad3701, #94ab0f);
+            border: 3px solid #333;
+            border-radius: 20px;
+            margin: 20px 5px;
+            padding: 15px;
+        }
+        .education-section h2 {
+            text-align: center;
+            border: 2px solid #333;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 30px;
+            background-color: rgba(122, 56, 2, 0.921);
+            color: #fff;
+            width: 50%;
+        }
+        .education-details {
+            padding: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .education-details div {
+            width: 48%;
+            margin-bottom: 15px;
+        }
+        .skills-section {
+            padding: 15px;
+        }
+        a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="background-color:rgb(29, 145, 221);border:3px double black;border-radius:10px;padding:10px;margin:auto;text-align:center;">Vikash's Portfolio</h1>
+    <h1>Vikash's Portfolio</h1>
     
-    <div style="background-color:rgb(110, 251, 251);margin:20px;padding:10px 50px 10px 50px;border-radius:20px">
-    <h2>About Myself</h3>
-    <p>Hello! My name is Vikash Kumar, I'm a passionate tech enthusiast and a student at Newton School of Technology with a strong interest in coding and software development. My journey in technology revolves around exploring innovative solutions, writing clean, efficient code, and continuously learning new skills. I enjoy tackling complex problems and am driven by a desire to create impactful software that makes a difference. Let's build something great together!</p>
-    <center>
-    <img src="./20240907_173415 (1)" alt="" width="200px" height="200px" style="border-radius: 50%;display:flex; align-items:center;justify-content:center; " >
-    </center>
-    <div style="display:flex;align-items:flex-start">
-    <div style="background-color:yellowgreen;border:3px solid black;border-radius:20px;margin:20px 5px 5px 5px">
-    <h2 style="text-align:center;border:2px double black;margin-top:20px;margin-right:30%;margin-left:30%;padding:10px;border-radius:30px;background-color:rgba(147, 251, 147, 0.745)">Education</h3>
-    <ol>
-        <div style="padding:15px;display: flex;">
-            <div style="padding:15px;">
-    <li>10th GRADE</li>
-    <p>I completed my 10th grade at New Gyan Bharti International School, where I achieved 78%.</p>
+    <div class="container">
+        <h2>About Myself</h2>
+        <p>Hello! My name is Vikash Kumar, I'm a passionate tech enthusiast and a student at Newton School of Technology with a strong interest in coding and software development. My journey in technology revolves around exploring innovative solutions, writing clean, efficient code, and continuously learning new skills. I enjoy tackling complex problems and am driven by a desire to create impactful software that makes a difference. Let's build something great together!</p>
+        <center>
+            <img src="./WhatsApp Image 2024-10-17 at 14.38.26.jpeg" alt="Not Found" width="200px" height="200px" class="profile-img">
+        </center>
+        
+        <div class="education-section">
+            <h2>Education</h2>
+            <div class="education-details">
+                <div>
+                    <li>10th GRADE</li>
+                    <p>I completed my 10th grade at New Gyan Bharti International School, where I achieved 78%.</p>
+                </div>
+                <div>
+                    <li>12th GRADE</li>
+                    <p>I completed my 12th grade at A S S Patna Central School in the Science stream, passing with a percentage of 86.2%.</p>
+                </div>
+                <div>
+                    <li>Competitive Exams</li>
+                    <p>I excelled in competitive examinations, securing a JEE percentile of 93.2, reflecting my strong foundation in academic pursuits.</p>
+                </div>
+                <div>
+                    <li>GRADUATION</li>
+                    <p>Currently pursuing my BTech in CSE (AI & ML) from <a href="https://my.newtonschool.co/" target="_blank">Newton School of Technology</a>.</p>
+                </div>
             </div>
-            <div style="padding:15px;">
-    <li>12th GRADE</li>
-    <p>I Completed my 12th grade at A S S Patna Central School in the Science stream, passed with a percentage of 86.2%.</p>
-    </div>
-    <div style="padding:15px;">
-    <li>Competitive Exams</li>
-    <p>Additionally, I excelled in competitive examinations, securing a JEE percentile of 93.2, reflecting my strong foundation in academic pursuits.</p>
-    </div>
-    <div style="padding:15px;">
-    <li>GRADUATION</li>
-    <p>Currently completing my Btech CSE(AI & ML)  from <a href="https://my.newtonschool.co/" target="_blank">Newton School of Technology</a></p>
-    </div>
-</div>
-</ol>
-<div style="padding:15px;">
-    <h3>Skills</h3>
-    <p>As a passionate tech enthusiast with a foundation in programming languages including Python, I thrive on solving complex challenges through competitive programming. My experience spans across various domains, allowing me to develop robust applications and contribute to diverse projects. In addition to my programming skills, I possess a solid understanding of web technologies, including HTML, which enhances my ability to create dynamic and user-friendly interfaces. I am committed to continuous learning and strive to leverage my skills to innovate and deliver high-quality solutions in the tech industry.</p>
-    </div>
-</div>
-    </div>
+
+            <div class="skills-section">
+                <h3>Skills</h3>
+                <p>As a passionate tech enthusiast with a foundation in programming languages including Python, I thrive on solving complex challenges through competitive programming. My experience spans across various domains, allowing me to develop robust applications and contribute to diverse projects. In addition to my programming skills, I possess a solid understanding of web technologies, including HTML, which enhances my ability to create dynamic and user-friendly interfaces. I am committed to continuous learning and strive to leverage my skills to innovate and deliver high-quality solutions in the tech industry.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
